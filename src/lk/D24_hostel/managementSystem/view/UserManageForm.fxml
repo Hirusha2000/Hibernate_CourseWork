@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="639.0" prefWidth="955.0" style="-fx-background-color: #245584;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.D24_Hostel.hostelSystem.controller.ManageUserFormController">
+    <children>
+        <Label layoutX="31.0" layoutY="9.0" text="Manage User" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="31.0" layoutY="47.0" text="Add new User | Update User | Delete User" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="13.0" />
+            </font>
+        </Label>
+        <Separator layoutX="32.0" layoutY="87.0" prefHeight="0.0" prefWidth="896.0" />
+        <Label layoutX="32.0" layoutY="141.0" text="User ID : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtUserId" layoutX="84.0" layoutY="136.0" prefHeight="29.0" prefWidth="154.0" promptText="User ID" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;">
+            <font>
+                <Font name="Poppins Regular" size="12.0" />
+            </font>
+        </TextField>
+        <Label layoutX="295.0" layoutY="141.0" prefHeight="19.0" prefWidth="74.0" text="User Name : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtUserName" layoutX="368.0" layoutY="136.0" prefHeight="29.0" prefWidth="224.0" promptText="User Name" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;">
+            <font>
+                <Font name="Poppins Regular" size="12.0" />
+            </font>
+        </TextField>
+        <Label layoutX="624.0" layoutY="141.0" text="Password : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <PasswordField fx:id="txtPassword" layoutX="696.0" layoutY="136.0" prefHeight="29.0" prefWidth="232.0" promptText="Password" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="704.0" layoutY="207.0" onAction="#btnSaveOnAction" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #D3D3D3;" text="Save">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <JFXButton buttonType="RAISED" layoutX="816.0" layoutY="207.0" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F94C66;" text="Delete" textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <TableView fx:id="tblUsers" layoutX="32.0" layoutY="267.0" prefHeight="353.0" prefWidth="896.0">
+            <columns>
+                <TableColumn prefWidth="228.33331298828125" text="User ID" />
+                <TableColumn prefWidth="330.66668701171875" text="User Name" />
+                <TableColumn prefWidth="336.6666259765625" text="User Password" />
+            </columns>
+        </TableView>
+      <JFXButton fx:id="btnSave1" buttonType="RAISED" layoutX="743.0" layoutY="41.0" onAction="#btnSaveOnAction" prefHeight="30.0" prefWidth="185.0" style="-fx-background-color: #7176a3;" text="+Add New User" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="14.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

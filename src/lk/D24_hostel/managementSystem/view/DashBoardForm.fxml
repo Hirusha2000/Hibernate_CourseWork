@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainRoot" prefHeight="400.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.D24_Hostel.hostelSystem.controller.DashBoardFormController">
+    <children>
+        <AnchorPane fx:id="root" layoutX="298.0" prefHeight="639.0" prefWidth="955.0" style="-fx-background-color: #EEEEEE;">
+            <children>
+                <Label layoutX="310.0" layoutY="298.0" text="Home">
+                    <font>
+                        <Font size="29.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="639.0" prefWidth="297.0" style="-fx-background-color: #34496e;">
+            <children>
+                <Label layoutX="59.0" layoutY="14.0" prefHeight="89.0" prefWidth="205.0" text="D24" textFill="#7176a3">
+                    <font>
+                        <Font name="Cambria Bold" size="96.0" />
+                    </font>
+                </Label>
+                <Separator layoutY="167.0" prefHeight="0.0" prefWidth="297.0" />
+                <JFXButton layoutX="-2.0" layoutY="167.0" onAction="#mngStudentOnAction" prefHeight="73.0" prefWidth="297.0" style="-fx-border-color: #EEEEEE; -fx-border-width: 0px 0px 2px 0px;" text="Manage Student" textFill="WHITE">
+                    <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+                <JFXButton layoutY="240.0" onAction="#mngRoomOnAction" prefHeight="73.0" prefWidth="297.0" style="-fx-border-color: #EEEEEE; -fx-border-width: 0px 0px 2px 0px;" text="Manage Rooms" textFill="WHITE">
+                    <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+                <JFXButton layoutX="-2.0" layoutY="311.0" onAction="#rsvOnAction" prefHeight="73.0" prefWidth="297.0" style="-fx-border-color: #EEEEEE; -fx-border-width: 0px 0px 2px 0px;" text="Reservation" textFill="WHITE">
+                    <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+                <ImageView fitHeight="64.0" fitWidth="54.0" layoutX="114.0" layoutY="537.0" onMouseClicked="#logOut" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assests/images/logout.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="-2.0" layoutY="385.0" onAction="#mngUserOnAction" prefHeight="64.0" prefWidth="297.0" style="-fx-border-color: #EEEEEE; -fx-border-width: 0px 0px 2px 0px;" text="Manage User" textFill="WHITE">
+                    <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+                <JFXButton layoutX="-2.0" layoutY="450.0" onAction="#btnRemainKeyMny" prefHeight="73.0" prefWidth="297.0" style="-fx-border-color: #EEEEEE; -fx-border-width: 0px 0px 2px 0px;" text="Remain Key Money" textFill="WHITE">
+                    <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+            <Label layoutX="75.0" layoutY="602.0" text="HUGSOLUTIONS@2023" textFill="#797ebc">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#34495e" height="54.0" layoutX="108.0" layoutY="538.0" opacity="0.44" stroke="#34495e" strokeType="INSIDE" width="61.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Rectangle>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

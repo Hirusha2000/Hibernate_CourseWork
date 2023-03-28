@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="639.0" prefWidth="955.0" style="-fx-background-color: #245584;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.D24_Hostel.hostelSystem.controller.ManageRoomFormController">
+    <children>
+        <Label layoutX="31.0" layoutY="11.0" text="Manage Room" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="31.0" layoutY="49.0" text="Add new room | Update room | Delete room" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="13.0" />
+            </font>
+        </Label>
+        <Separator layoutX="32.0" layoutY="86.0" prefHeight="4.0" prefWidth="906.0" />
+        <TextField fx:id="txtRoomID" layoutX="156.0" layoutY="103.0" prefHeight="29.0" prefWidth="229.0" promptText="Enter Room ID" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="32.0" layoutY="108.0" text="Room Type  ID : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="51.0" layoutY="146.0" text="Room Type : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtKeyMoney" layoutX="156.0" layoutY="180.0" prefHeight="29.0" prefWidth="229.0" promptText="Key Money (LKR)" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="52.0" layoutY="185.0" text="Key Money : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtRoomQty" layoutX="616.0" layoutY="103.0" prefHeight="29.0" prefWidth="229.0" promptText="Enter Room Qty." style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="528.0" layoutY="108.0" text="Room Qty. : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="623.0" layoutY="204.0" onAction="#btnSavoOnAction" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #D3D3D3;" text="Save">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <JFXButton buttonType="RAISED" layoutX="737.0" layoutY="204.0" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F94C66;" text="Delete" textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <TableView fx:id="tblRooms" layoutX="27.0" layoutY="261.0" prefHeight="353.0" prefWidth="906.0">
+            <columns>
+                <TableColumn prefWidth="165.0" text="Room ID" />
+                <TableColumn prefWidth="209.0" text="Type" />
+                <TableColumn prefWidth="196.33331298828125" text="Key Monery (LKR)" />
+                <TableColumn prefWidth="171.33331298828125" text="Room Qty." />
+            <TableColumn prefWidth="224.3333740234375" text="Qty On Hand" />
+            </columns>
+        </TableView>
+      <JFXButton fx:id="btnSave1" buttonType="RAISED" layoutX="798.0" layoutY="34.0" onAction="#btnSavoOnAction" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #7176a3;" text="+Add New Room" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="511.0" layoutY="146.0" text="Qty On Hand :" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtRoomQty1" layoutX="616.0" layoutY="141.0" prefHeight="29.0" prefWidth="229.0" promptText="Enter Room Qty." style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+      <ComboBox layoutX="156.0" layoutY="143.0" prefHeight="25.0" prefWidth="229.0" promptText="Select Room type" />
+    </children>
+</AnchorPane>

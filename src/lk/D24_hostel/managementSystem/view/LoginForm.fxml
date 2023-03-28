@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginFormContext" prefHeight="400.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.LoginFormController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#245584" height="728.0" stroke="BLACK" strokeType="INSIDE" width="1300.0" />
+        <AnchorPane cacheShape="false" centerShape="false" layoutX="29.0" layoutY="35.0" prefHeight="594.0" prefWidth="569.0" scaleShape="false" style="-fx-background-color: #34495e; -fx-background-radius: 20;">
+            <children>
+                <ImageView fitHeight="320.0" fitWidth="520.0" layoutX="25.0" layoutY="198.0" opacity="0.75" pickOnBounds="true" smooth="false">
+                    <image>
+                        <Image url="@assests/images/icon.PNG" />
+                    </image>
+                </ImageView>
+              <Label layoutX="99.0" layoutY="14.0" prefHeight="132.0" prefWidth="372.0" text="WELCOME" textFill="#7176a3" textOverrun="CLIP">
+                  <font>
+                      <Font name="Calibri Bold" size="80.0" />
+                  </font>
+                  <effect>
+                      <ColorAdjust brightness="0.15" contrast="0.13" />
+                  </effect>
+              </Label>
+            <Label layoutX="138.0" layoutY="411.0" prefHeight="46.0" prefWidth="294.0" text="All Rights Reserved By D24 GROUP @2023.">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+          <JFXTextField fx:id="txtUserName" labelFloat="true" layoutX="735.0" layoutY="269.0" onKeyReleased="#keyReleased" prefHeight="63.0" prefWidth="415.0" promptText="User Name" unFocusColor="#221f1f">
+              <font>
+                  <Font name="Arial Bold" size="33.0" />
+              </font>
+              <effect>
+                  <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+              </effect>
+          </JFXTextField>
+          <JFXTextField fx:id="txtPassword" layoutX="735.0" layoutY="394.0" prefHeight="60.0" prefWidth="423.0">
+              <font>
+                  <Font name="Arial Bold" size="33.0" />
+              </font>
+              <effect>
+                  <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+              </effect>
+          </JFXTextField>
+          <JFXPasswordField fx:id="pwdPassword" labelFloat="true" layoutX="735.0" layoutY="394.0" onKeyReleased="#keyReleased" prefHeight="60.0" prefWidth="423.0" promptText="Password">
+              <effect>
+                  <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+              </effect>
+              <font>
+                  <Font name="Arial Bold" size="33.0" />
+              </font>
+          </JFXPasswordField>
+          <CheckBox fx:id="cbShowPassword" layoutX="739.0" layoutY="463.0" mnemonicParsing="false" text="Show Password" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+          </CheckBox>
+      <JFXButton layoutX="884.0" layoutY="553.0" prefHeight="46.0" prefWidth="134.0" style="-fx-background-color: white;" text="LOGIN">
+         <font>
+            <Font name="Cambria Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="868.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assests/images/png1.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

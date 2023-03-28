@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="639.0" prefWidth="955.0" style="-fx-background-color: #245584;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.D24_Hostel.hostelSystem.controller.ManageStudentFormController">
+    <children>
+        <TextField fx:id="txtStId" layoutX="195.0" layoutY="117.0" prefHeight="29.0" prefWidth="243.0" promptText="Enter Student Casmpus ID" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="108.0" layoutY="122.0" text="Student ID : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtStName" layoutX="195.0" layoutY="156.0" prefHeight="29.0" prefWidth="243.0" promptText="Enter Student Name" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="86.0" layoutY="161.0" text="Student Name : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtStAdd" layoutX="195.0" layoutY="196.0" prefHeight="29.0" prefWidth="243.0" promptText="Enter Student Address" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="75.0" layoutY="201.0" text="Student Adreess : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtConNo" layoutX="592.0" layoutY="117.0" prefHeight="29.0" prefWidth="243.0" promptText="Enter Contact No." style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="487.0" layoutY="122.0" text="Contact No. : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtDob" layoutX="592.0" layoutY="157.0" prefHeight="29.0" prefWidth="243.0" promptText="Enter Date of Birth" style="-fx-border-color: #00ADB5; -fx-border-width: 2px 2px 2px 2px;" />
+        <Label layoutX="483.0" layoutY="161.0" text="Date of Birth : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="514.0" layoutY="201.0" text="Gender : " textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="13.0" />
+            </font>
+        </Label>
+        <JFXButton layoutX="818.0" layoutY="35.0" prefHeight="29.0" prefWidth="100.0" style="-fx-background-color: #7176a3;" text="+New Student" textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="12.0" />
+            </font>
+        </JFXButton>
+        <Label layoutX="31.0" layoutY="11.0" text="Manage Student" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="31.0" layoutY="49.0" text="Add new Student | Update student | Delete student" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="13.0" />
+            </font>
+        </Label>
+        <Separator layoutX="32.0" layoutY="87.0" prefHeight="2.0" prefWidth="886.0" />
+        <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="606.0" layoutY="253.0" onAction="#btnSaveOnAction" prefHeight="30.0" prefWidth="100.0" ripplerFill="WHITE" style="-fx-background-color: #D3D3D3; -fx-background-color: ;" text="Save">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <JFXButton buttonType="RAISED" layoutX="723.0" layoutY="253.0" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F94C66;" text="Delete" textFill="WHITE">
+            <font>
+                <Font name="Poppins Regular" size="14.0" />
+            </font>
+        </JFXButton>
+        <TableView fx:id="tblStudents" layoutX="32.0" layoutY="307.0" prefHeight="309.0" prefWidth="886.0">
+            <columns>
+                <TableColumn prefWidth="96.0" text="Student ID" />
+                <TableColumn prefWidth="190.66668701171875" text="Name" />
+                <TableColumn prefWidth="184.33331298828125" text="Address" />
+                <TableColumn prefWidth="162.99996948242188" text="Contact No." />
+                <TableColumn prefWidth="126.0" text="DOB" />
+                <TableColumn prefWidth="131.0" text="Gender" />
+            </columns>
+        </TableView>
+      <ComboBox layoutX="592.0" layoutY="198.0" prefHeight="29.0" prefWidth="243.0" promptText="Select Here" />
+    </children>
+</AnchorPane>
