@@ -36,7 +36,7 @@
             <Font name="Consolas Bold" size="26.0" />
          </font>
       </Label>
-      <Label fx:id="lblTotalRooms" layoutX="157.0" layoutY="246.0">
+      <Label fx:id="lblTotalRooms" layoutX="192.0" layoutY="243.0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
@@ -46,7 +46,7 @@
             <Font name="System Bold" size="26.0" />
          </font>
       </Label>
-      <Label fx:id="lblTotalStudents" layoutX="789.0" layoutY="246.0">
+      <Label fx:id="lblTotalStudents" layoutX="750.0" layoutY="246.0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
