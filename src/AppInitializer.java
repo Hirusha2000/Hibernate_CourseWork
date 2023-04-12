@@ -20,8 +20,16 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("lk/ijse/Hostel_Management_System/view/LoginForm.fxml"))));
+        primaryStage.setTitle("D24 HOSTEL MANAGEMENT SYSTEM powered by HUG SOLUTIONS@2023");
         primaryStage.show();
 
+
+       /* Image image=new Image("assets/restaurant.logo.png");
+        primaryStage.getIcons().add(image);
+        primaryStage.setMaximized(true);
+
+        primaryStage.setResizable(false);
+        primaryStage.show();*/
 
     }
 }
