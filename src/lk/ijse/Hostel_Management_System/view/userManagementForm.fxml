@@ -44,11 +44,11 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Label layoutX="208.0" layoutY="65.0" text="Update User Detals" textFill="#b37575">
+      <Label layoutX="208.0" layoutY="65.0" text="Update User Details" textFill="#b37575">
          <font>
             <Font name="Cambria Bold" size="41.0" />
          </font>
       </Label>
-      <Line endX="249.66668701171875" layoutX="320.0" layoutY="124.0" startX="-106.33331298828125" />
+      <Line endX="262.33331298828125" layoutX="320.0" layoutY="124.0" startX="-106.33331298828125" />
    </children>
 </AnchorPane>

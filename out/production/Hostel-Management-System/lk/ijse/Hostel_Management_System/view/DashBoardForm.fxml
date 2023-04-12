@@ -51,7 +51,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <Button layoutX="5.0" layoutY="507.0" mnemonicParsing="false" onAction="#userManagementFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="User Management" textFill="#b37575">
+            <Button layoutX="5.0" layoutY="507.0" mnemonicParsing="false" onAction="#userManagementFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="Update User Details" textFill="#b37575">
                <font>
                   <Font name="Cambria Bold" size="28.0" />
                </font>
