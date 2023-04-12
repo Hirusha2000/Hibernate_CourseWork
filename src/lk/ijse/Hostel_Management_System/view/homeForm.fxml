@@ -10,38 +10,28 @@
 
 <AnchorPane fx:id="homeFormContext" prefHeight="600.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.HomeFormController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2f7ff" height="825.0" stroke="WHITE" strokeType="INSIDE" width="1334.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6fbbd6" height="825.0" stroke="WHITE" strokeType="INSIDE" width="1334.0" />
       <Label layoutX="193.0" layoutY="25.0" prefHeight="92.0" prefWidth="564.0" text="The Management Section." textFill="#26149e">
          <font>
             <Font name="Cambria Bold" size="44.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f8bff" height="122.0" layoutX="35.0" layoutY="201.0" opacity="0.36" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f8bff" height="122.0" layoutX="352.0" layoutY="201.0" opacity="0.37" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f8bff" height="122.0" layoutX="341.0" layoutY="201.0" opacity="0.37" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </Rectangle>
-      <Label layoutX="75.0" layoutY="205.0" prefHeight="48.0" prefWidth="166.0" text="Total Rooms" textFill="#7176a3">
-         <font>
-            <Font name="Consolas Bold" size="26.0" />
-         </font>
-      </Label>
-      <Label layoutX="341.0" layoutY="211.0" prefHeight="38.0" prefWidth="246.0" text="Total Reservations" textFill="#7176a3">
+      <Label layoutX="358.0" layoutY="211.0" prefHeight="38.0" prefWidth="235.0" text="Total Reservations" textFill="#141626">
          <font>
             <Font name="Constantia Bold" size="26.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f9cff" height="122.0" layoutX="649.0" layoutY="201.0" opacity="0.53" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f9cff" height="122.0" layoutX="634.0" layoutY="201.0" opacity="0.53" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Rectangle>
-      <Label layoutX="672.0" layoutY="214.0" text="Total Students" textFill="#7176a3">
+      <Label layoutX="650.0" layoutY="215.0" text="Total Students" textFill="#141626">
          <font>
             <Font name="Consolas Bold" size="26.0" />
          </font>
@@ -71,14 +61,24 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Label layoutX="419.0" layoutY="585.0" prefHeight="23.0" prefWidth="201.0" text="HUGSOLUTIONS@2023">
+      <Label layoutX="419.0" layoutY="585.0" prefHeight="24.0" prefWidth="218.0" text="HUGSOLUTIONS@2023" textFill="#0e1333">
          <font>
-            <Font name="Consolas Bold" size="20.0" />
+            <Font name="Cambria Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="310.0" layoutY="583.0" prefHeight="27.0" prefWidth="109.0" text="SYSTEM BY :" textFill="#c93939">
+      <Label layoutX="303.0" layoutY="583.0" prefHeight="27.0" prefWidth="116.0" text="SYSTEM BY :" textFill="#c93939">
          <font>
-            <Font name="Book Antiqua" size="18.0" />
+            <Font name="Book Antiqua Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f8bff" height="122.0" layoutX="70.0" layoutY="201.0" opacity="0.37" stroke="#0f8bff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="246.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Label layoutX="110.0" layoutY="206.0" prefHeight="48.0" prefWidth="166.0" text="Total Rooms" textFill="#141626">
+         <font>
+            <Font name="Consolas Bold" size="26.0" />
          </font>
       </Label>
    </children>
