@@ -43,7 +43,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="149.0" layoutY="755.0" onMouseClicked="#backToHomeOnAction" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="149.0" layoutY="613.0" onMouseClicked="#backToHomeOnAction" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assests/images/home-icon.png" />
                </image>
@@ -79,7 +79,7 @@
                   <Font name="System Bold" size="96.0" />
                </font>
             </Label>
-            <Label layoutX="150.0" layoutY="593.0" onMouseClicked="#backToHomeOnAction" text="Home" textFill="#7176a3">
+            <Label layoutX="262.0" layoutY="736.0" onMouseClicked="#backToHomeOnAction" text="Home" textFill="#7176a3">
                <font>
                   <Font name="Cambria Bold" size="30.0" />
                </font>

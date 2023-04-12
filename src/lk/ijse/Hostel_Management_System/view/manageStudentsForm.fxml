@@ -29,7 +29,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <TableView fx:id="tblStudentDetails" layoutX="28.0" layoutY="329.0" prefHeight="420.0" prefWidth="797.0">
+      <TableView fx:id="tblStudentDetails" layoutX="28.0" layoutY="329.0" prefHeight="347.0" prefWidth="797.0">
          <columns>
             <TableColumn prefWidth="91.0" text="Id" />
             <TableColumn minWidth="8.0" prefWidth="140.0" text="Name" />
