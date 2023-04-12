@@ -41,7 +41,7 @@
             <Font name="System Bold" size="26.0" />
          </font>
       </Label>
-      <Label fx:id="lblTotalReservations" layoutX="475.0" layoutY="246.0">
+      <Label fx:id="lblTotalReservations" layoutX="467.0" layoutY="246.0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
