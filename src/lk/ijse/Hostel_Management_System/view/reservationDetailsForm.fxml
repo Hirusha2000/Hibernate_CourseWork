@@ -14,14 +14,14 @@
 <AnchorPane fx:id="reservationDetailsFormContext" prefHeight="663.0" prefWidth="1400.0" stylesheets="@assests/styles/manageStudentsForm.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.ReservationDetailsFormController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6fbbd6" height="800.0" stroke="WHITE" strokeType="INSIDE" width="1215.0" />
-      <TableView fx:id="tblReservationDetails" layoutX="45.0" layoutY="282.0" prefHeight="449.0" prefWidth="778.0">
+      <TableView fx:id="tblReservationDetails" layoutX="45.0" layoutY="282.0" prefHeight="373.0" prefWidth="820.0">
          <columns>
             <TableColumn prefWidth="128.0" text="Reservation ID" />
             <TableColumn minWidth="8.0" prefWidth="129.0" text="Date" />
             <TableColumn prefWidth="143.0" text="Room ID" />
-            <TableColumn prefWidth="130.0" text="Student ID" />
-            <TableColumn prefWidth="126.0" text="Status" />
-            <TableColumn prefWidth="121.0" text="Remove" />
+            <TableColumn prefWidth="139.3333740234375" text="Student ID" />
+            <TableColumn prefWidth="140.6666259765625" text="Status" />
+            <TableColumn prefWidth="150.66668701171875" text="Remove" />
          </columns>
       </TableView>
       <JFXTextField fx:id="txtReservationID" labelFloat="true" layoutX="55.0" layoutY="137.0" prefHeight="31.0" prefWidth="104.0" promptText="Reservation ID" />

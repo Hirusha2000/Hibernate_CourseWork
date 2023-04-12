@@ -43,13 +43,13 @@
       <JFXTextField fx:id="txtType" labelFloat="true" layoutX="203.0" layoutY="233.0" prefHeight="31.0" prefWidth="123.0" promptText="Type" />
       <JFXTextField fx:id="txtKeyMoney" labelFloat="true" layoutX="374.0" layoutY="233.0" prefHeight="31.0" prefWidth="149.0" promptText="Key Money For Room" />
       <JFXTextField fx:id="txtQtyOnHand" labelFloat="true" layoutX="581.0" layoutY="233.0" prefHeight="31.0" prefWidth="118.0" promptText="Qty On Hand" />
-      <TableView fx:id="tblReservationDetails" layoutX="18.0" layoutY="387.0" prefHeight="360.0" prefWidth="820.0">
+      <TableView fx:id="tblReservationDetails" layoutX="18.0" layoutY="387.0" prefHeight="283.0" prefWidth="874.0">
          <columns>
             <TableColumn prefWidth="143.0" text="Reservation ID" />
             <TableColumn minWidth="8.0" prefWidth="172.0" text="Date" />
-            <TableColumn prefWidth="179.0" text="Room ID" />
-            <TableColumn prefWidth="176.0" text="Student ID" />
-            <TableColumn prefWidth="149.0" text="Status" />
+            <TableColumn prefWidth="201.0" text="Room ID" />
+            <TableColumn prefWidth="196.0" text="Student ID" />
+            <TableColumn prefWidth="161.0" text="Status" />
          </columns>
       </TableView>
       <JFXTextField fx:id="txtPaidKeyMoney" labelFloat="true" layoutX="428.0" layoutY="313.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="170.0" promptText="Paid Key Money">

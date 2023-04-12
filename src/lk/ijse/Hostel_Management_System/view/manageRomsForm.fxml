@@ -43,12 +43,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <TableView fx:id="tblRoomDetails" layoutX="36.0" layoutY="331.0" prefHeight="316.0" prefWidth="770.0">
+      <TableView fx:id="tblRoomDetails" layoutX="36.0" layoutY="331.0" prefHeight="343.0" prefWidth="825.0">
          <columns>
             <TableColumn prefWidth="190.0" text="Room Type ID" />
-            <TableColumn minWidth="8.0" prefWidth="194.0" text="Type" />
-            <TableColumn prefWidth="224.0" text="Key Money" />
-            <TableColumn prefWidth="188.0" text="Qty" />
+            <TableColumn minWidth="8.0" prefWidth="241.33340454101562" text="Type" />
+            <TableColumn prefWidth="216.6666259765625" text="Key Money" />
+            <TableColumn prefWidth="176.66668701171875" text="Qty" />
          </columns>
       </TableView>
       <JFXTextField fx:id="txtQty" labelFloat="true" layoutX="706.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="97.0" promptText="Qty" />
