@@ -42,7 +42,7 @@
                   <Font name="Consolas Bold" size="14.0" />
                </font>
             </Label>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2f7ff" height="309.0" layoutX="33.0" layoutY="228.0" opacity="0.44" stroke="BLACK" strokeType="INSIDE" width="472.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7176a3" height="309.0" layoutX="33.0" layoutY="228.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" width="472.0" />
          </children>
       </AnchorPane>
       <JFXTextField fx:id="txtUserName" labelFloat="true" layoutX="784.0" layoutY="263.0" onKeyReleased="#keyReleased" prefHeight="63.0" prefWidth="415.0" promptText="User Name" unFocusColor="#221f1f">
