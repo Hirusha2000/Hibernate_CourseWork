@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="userManagementFormContext" prefHeight="663.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.UserManagementFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2f7ff" height="800.0" layoutX="3.0" layoutY="3.0" stroke="WHITE" strokeType="INSIDE" width="848.0" />
+      <Label layoutX="196.0" layoutY="206.0" text="User Name">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="326.0" text="New User Name">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="408.0" layoutY="208.0" />
+      <TextField fx:id="txtNewUserName" layoutX="408.0" layoutY="328.0" onKeyReleased="#textFields_key_released" />
+      <Label layoutX="196.0" layoutY="401.0" text="New Password">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNewPassword" layoutX="408.0" layoutY="403.0" onKeyReleased="#textFields_key_released" />
+      <Label layoutX="196.0" layoutY="467.0" text="Old Password">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOldPassword" layoutX="408.0" layoutY="469.0" onKeyReleased="#textFields_key_released" />
+      <JFXButton fx:id="btnUpdate" buttonType="RAISED" layoutX="346.0" layoutY="580.0" onAction="#btnUpdateOnAction" prefHeight="48.0" prefWidth="124.0" style="-fx-background-color: #0f8bff; -fx-background-radius: 8;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="208.0" layoutY="67.0" text="User Management" textFill="#26149e">
+         <font>
+            <Font name="Cambria Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

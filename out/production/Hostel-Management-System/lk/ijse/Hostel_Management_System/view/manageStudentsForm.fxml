@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="manageStudentsFormContext" prefHeight="663.0" prefWidth="1400.0" stylesheets="@assests/styles/manageStudentsForm.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.ManageStudentsFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2f7ff" height="800.0" layoutX="5.0" stroke="WHITE" strokeType="INSIDE" width="1249.0" />
+      <JFXTextField fx:id="txtStudentId" labelFloat="true" layoutX="23.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="84.0" promptText="Student Id" />
+      <JFXTextField fx:id="txtName" labelFloat="true" layoutX="127.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="136.0" promptText="Name" />
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="286.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="159.0" promptText="Address" />
+      <JFXTextField fx:id="txtContactNo" labelFloat="true" layoutX="467.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="105.0" promptText="Con. No" />
+      <JFXTextField fx:id="txtDob" labelFloat="true" layoutX="597.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="111.0" promptText="dob" />
+      <JFXComboBox fx:id="cmbGender" labelFloat="true" layoutX="737.0" layoutY="168.0" prefHeight="31.0" prefWidth="105.0" promptText="Gender" />
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="243.0" layoutY="236.0" onAction="#btnSaveStudentOnAction" prefHeight="48.0" prefWidth="111.0" style="-fx-background-color: #7176a3; -fx-background-radius: 8;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TableView fx:id="tblStudentDetails" layoutX="28.0" layoutY="329.0" prefHeight="420.0" prefWidth="797.0">
+         <columns>
+            <TableColumn prefWidth="91.0" text="Id" />
+            <TableColumn minWidth="8.0" prefWidth="140.0" text="Name" />
+            <TableColumn prefWidth="185.0" text="Address" />
+            <TableColumn prefWidth="150.0" text="Contact No" />
+            <TableColumn prefWidth="122.0" text="DOB" />
+            <TableColumn prefWidth="108.0" text="Gender" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="411.0" layoutY="236.0" onAction="#btnDeleteStudentOnAction" prefHeight="48.0" prefWidth="111.0" style="-fx-background-color: #e74c3c; -fx-background-radius: 8;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnAddStudent" buttonType="RAISED" layoutX="652.0" layoutY="84.0" onAction="#btnAddNewStudentOnAction" prefHeight="31.0" prefWidth="170.0" style="-fx-background-color: #0f8bff; -fx-background-radius: 8;" text="+ New Student" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="65.0" layoutY="34.0" text="Manage Students" textFill="#26149e">
+         <font>
+            <Font name="Cambria Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

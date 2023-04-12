@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="reservationDetailsFormContext" prefHeight="663.0" prefWidth="1400.0" stylesheets="@assests/styles/manageStudentsForm.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.ReservationDetailsFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2f7ff" height="800.0" stroke="WHITE" strokeType="INSIDE" width="1215.0" />
+      <TableView fx:id="tblReservationDetails" layoutX="45.0" layoutY="282.0" prefHeight="449.0" prefWidth="778.0">
+         <columns>
+            <TableColumn prefWidth="128.0" text="Reservation ID" />
+            <TableColumn minWidth="8.0" prefWidth="129.0" text="Date" />
+            <TableColumn prefWidth="143.0" text="Room ID" />
+            <TableColumn prefWidth="130.0" text="Student ID" />
+            <TableColumn prefWidth="126.0" text="Status" />
+            <TableColumn prefWidth="121.0" text="Remove" />
+         </columns>
+      </TableView>
+      <JFXTextField fx:id="txtReservationID" labelFloat="true" layoutX="55.0" layoutY="137.0" prefHeight="31.0" prefWidth="104.0" promptText="Reservation ID" />
+      <JFXTextField fx:id="txtDate" labelFloat="true" layoutX="215.0" layoutY="138.0" prefHeight="31.0" prefWidth="96.0" promptText="Date" />
+      <JFXTextField fx:id="txtRoomID" labelFloat="true" layoutX="368.0" layoutY="137.0" prefHeight="31.0" prefWidth="96.0" promptText="Room ID" />
+      <JFXTextField fx:id="txtStatus" labelFloat="true" layoutX="531.0" layoutY="137.0" onKeyReleased="#text_Fields_key_Released" prefHeight="31.0" prefWidth="96.0" promptText="Status" />
+      <JFXButton fx:id="btnUpdate" buttonType="RAISED" layoutX="687.0" layoutY="132.0" onAction="#btnUpdateOnAction" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #0f8bff; -fx-background-radius: 8;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXTextField fx:id="txtStudentID" labelFloat="true" layoutX="55.0" layoutY="211.0" prefHeight="31.0" prefWidth="87.0" promptText="Student ID" />
+      <JFXTextField fx:id="txtName" labelFloat="true" layoutX="159.0" layoutY="211.0" prefHeight="31.0" prefWidth="87.0" promptText="Name" />
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="263.0" layoutY="211.0" prefHeight="31.0" prefWidth="87.0" promptText="Address" />
+      <JFXTextField fx:id="txtContact" labelFloat="true" layoutX="372.0" layoutY="211.0" prefHeight="31.0" prefWidth="96.0" promptText="Contact No" />
+      <JFXTextField fx:id="txtDob" labelFloat="true" layoutX="490.0" layoutY="211.0" prefHeight="31.0" prefWidth="96.0" promptText="DOB" />
+      <JFXTextField fx:id="txtGender" labelFloat="true" layoutX="616.0" layoutY="211.0" prefHeight="31.0" prefWidth="81.0" promptText="Gender" />
+      <Label layoutX="55.0" layoutY="42.0" text="Reservation Details" textFill="#26149e">
+         <font>
+            <Font name="Cambria Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
