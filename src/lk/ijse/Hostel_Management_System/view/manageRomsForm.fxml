@@ -61,7 +61,7 @@
          </cursor>
       </JFXButton>
       <JFXTextField fx:id="txtRoomTypeID" labelFloat="true" layoutX="31.0" layoutY="168.0" onKeyReleased="#textFields_Key_Released" prefHeight="31.0" prefWidth="136.0" promptText="Room  Type ID" />
-      <Line endX="725.0" layoutX="115.0" layoutY="92.0" startX="-100.0" />
+      <Line endX="708.6666870117188" layoutX="115.0" layoutY="92.0" startX="-66.0" />
       <Label layoutX="47.0" layoutY="30.0" text="Manage Rooms" textFill="#26149e">
          <font>
             <Font name="Cambria Bold" size="41.0" />

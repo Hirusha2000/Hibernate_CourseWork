@@ -4,6 +4,7 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -22,10 +23,11 @@
             <TableColumn prefWidth="127.0" text="Remain_Key_Money" />
          </columns>
       </TableView>
-      <Label layoutX="247.0" layoutY="44.0" prefHeight="50.0" prefWidth="373.0" text="Remain Key Money" textFill="#26149e">
+      <Label layoutX="20.0" layoutY="46.0" prefHeight="50.0" prefWidth="373.0" text="Remain Key Money" textFill="#26149e">
          <font>
             <Font name="Cambria Bold" size="41.0" />
          </font>
       </Label>
+      <Line endX="785.0" endY="-1.52587890625E-5" layoutX="58.0" layoutY="109.0" startX="-33.5" startY="-1.52587890625E-5" />
    </children>
 </AnchorPane>

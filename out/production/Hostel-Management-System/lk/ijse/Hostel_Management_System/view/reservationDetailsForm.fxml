@@ -7,6 +7,7 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -41,10 +42,11 @@
       <JFXTextField fx:id="txtContact" labelFloat="true" layoutX="372.0" layoutY="211.0" prefHeight="31.0" prefWidth="96.0" promptText="Contact No" />
       <JFXTextField fx:id="txtDob" labelFloat="true" layoutX="490.0" layoutY="211.0" prefHeight="31.0" prefWidth="96.0" promptText="DOB" />
       <JFXTextField fx:id="txtGender" labelFloat="true" layoutX="616.0" layoutY="211.0" prefHeight="31.0" prefWidth="81.0" promptText="Gender" />
-      <Label layoutX="55.0" layoutY="42.0" text="Reservation Details" textFill="#26149e">
+      <Label layoutX="45.0" layoutY="28.0" text="Reservation Details" textFill="#26149e">
          <font>
             <Font name="Cambria Bold" size="41.0" />
          </font>
       </Label>
+      <Line endX="524.0" layoutX="160.0" layoutY="96.0" startX="-108.33334350585938" />
    </children>
 </AnchorPane>

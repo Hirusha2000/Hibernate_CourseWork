@@ -8,12 +8,13 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="makeReservationFormContext" prefHeight="663.0" prefWidth="1400.0" stylesheets="@assests/styles/manageStudentsForm.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.MakeReservationFormController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6fbbd6" height="800.0" layoutY="1.0" stroke="WHITE" strokeType="INSIDE" width="1139.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6fbbd6" height="800.0" layoutY="1.0" stroke="WHITE" strokeType="INSIDE" width="1304.0" />
       <Label fx:id="lblReservationID" alignment="CENTER" layoutX="705.0" layoutY="24.0" prefHeight="50.0" prefWidth="123.0" style="-fx-border-radius: 6; -fx-border-color: black;">
          <font>
             <Font name="Arial Narrow Bold" size="32.0" />
@@ -70,5 +71,6 @@
             <Font name="Cambria Bold" size="41.0" />
          </font>
       </Label>
+      <Line endX="520.3333129882812" layoutX="136.0" layoutY="87.0" startX="-110.33334350585938" />
    </children>
 </AnchorPane>

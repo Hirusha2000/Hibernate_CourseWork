@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -43,10 +44,11 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Label layoutX="208.0" layoutY="67.0" text="User Management" textFill="#26149e">
+      <Label layoutX="208.0" layoutY="65.0" text="User Management" textFill="#26149e">
          <font>
             <Font name="Cambria Bold" size="41.0" />
          </font>
       </Label>
+      <Line endX="227.0" layoutX="320.0" layoutY="124.0" startX="-106.33331298828125" />
    </children>
 </AnchorPane>
