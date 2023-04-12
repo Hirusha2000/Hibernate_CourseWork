@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="LoginFormContext" prefHeight="640.0" prefWidth="1400.0" style="-fx-background-color: #245584;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.LoginFormController">
+<AnchorPane fx:id="LoginFormContext" prefHeight="732.0" prefWidth="1400.0" style="-fx-background-color: #245584;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Hostel_Management_System.controller.LoginFormController">
    <children>
       <JFXTextField fx:id="txtPassword" layoutX="787.0" layoutY="368.0" prefHeight="60.0" prefWidth="423.0">
          <font>
@@ -23,7 +23,7 @@
             <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
          </effect>
       </JFXTextField>
-      <AnchorPane layoutX="25.0" layoutY="16.0" prefHeight="628.0" prefWidth="537.0" style="-fx-background-color: #34495e; -fx-background-radius: 20;">
+      <AnchorPane layoutX="97.0" layoutY="34.0" prefHeight="628.0" prefWidth="537.0" style="-fx-background-color: #34495e; -fx-background-radius: 20;">
          <children>
             <Label layoutX="40.0" layoutY="63.0" prefHeight="122.0" prefWidth="472.0" text="WELCOME" textFill="#7176a3" textOverrun="CLIP">
                <font>
