@@ -35,15 +35,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="5.0" layoutY="275.0" mnemonicParsing="false" onAction="#reservationDetailsFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="Reservation Details" textFill="WHITE">
-               <font>
-                  <Font name="Cambria Bold" size="28.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
-            <Button layoutX="2.0" layoutY="353.0" mnemonicParsing="false" onAction="#makeReservationFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="Make Reservation" textFill="WHITE">
+            <Button layoutX="7.0" layoutY="351.0" mnemonicParsing="false" onAction="#reservationDetailsFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="Reservation Details" textFill="WHITE">
                <font>
                   <Font name="Cambria Bold" size="28.0" />
                </font>
@@ -95,6 +87,14 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
+            <Button layoutX="5.0" layoutY="275.0" mnemonicParsing="false" onAction="#makeReservationFormOnAction" prefHeight="66.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="Make Reservation" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="28.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="childFormContext" layoutX="375.0" prefHeight="655.0" prefWidth="1400.0" style="-fx-background-color: white;" />

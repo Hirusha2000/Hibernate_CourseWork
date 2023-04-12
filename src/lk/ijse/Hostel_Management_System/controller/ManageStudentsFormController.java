@@ -83,8 +83,8 @@ public class ManageStudentsFormController {
         Pattern namePattern = Pattern.compile("^[A-z ]{3,15}$");
         Pattern addressPatten = Pattern.compile("^[A-z0-9 ,/]{4,20}$");
         Pattern contactPattern = Pattern.compile("^(078|075|077|074|071|070|076|072|034)[0-9]{7}$");
-        Pattern dobPattern = Pattern.compile("^(19[0-9]{2}|20[0-9]{2})-([11|12]{2}|0[1|2|3|4|5|6|7|8|9])-([1-2]{1}[0-9]{1}|0[1-9]{1}|3[1|0])$");
-
+        Pattern dobPattern = Pattern.compile("^(19|20)\\d{2}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$");
+//^(19[0-9]{2}|20[0-9]{2})-([11|12]{2}|0[1|2|3|4|5|6|7|8|9])-([1-2]{1}[0-9]{1}|0[1-9]{1}|3[1|0])$
         map.put(txtStudentId, idPattern);
         map.put(txtName, namePattern);
         map.put(txtAddress, addressPatten);

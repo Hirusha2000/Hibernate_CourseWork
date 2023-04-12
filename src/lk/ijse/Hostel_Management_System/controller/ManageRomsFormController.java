@@ -90,7 +90,7 @@ public class ManageRomsFormController {
         });
 
         Pattern idPattern = Pattern.compile("^RM-[0-9]{4}$");
-        Pattern typePattern = Pattern.compile("RID-[0-9]{4}$");
+        Pattern typePattern = Pattern.compile("^[A-z0-9 ,/]{4,20}$");
         Pattern keyMoneyPattern = Pattern.compile("^[0-9][0-9]{4}(.[0-9]{2})?$");
         Pattern qtyOnHandPattern = Pattern.compile("^[0-9]+$");
         Pattern qtyPattern = Pattern.compile("^[0-9]+$");
