@@ -43,7 +43,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <TableView fx:id="tblRoomDetails" layoutX="47.0" layoutY="362.0" prefHeight="399.0" prefWidth="770.0">
+      <TableView fx:id="tblRoomDetails" layoutX="36.0" layoutY="331.0" prefHeight="316.0" prefWidth="770.0">
          <columns>
             <TableColumn prefWidth="190.0" text="Room Type ID" />
             <TableColumn minWidth="8.0" prefWidth="194.0" text="Type" />
