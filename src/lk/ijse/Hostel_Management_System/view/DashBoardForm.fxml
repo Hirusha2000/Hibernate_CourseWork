@@ -59,7 +59,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <Button layoutX="7.0" layoutY="429.0" mnemonicParsing="false" onAction="#userManagementFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="User Management" textFill="WHITE">
+            <Button layoutX="5.0" layoutY="507.0" mnemonicParsing="false" onAction="#userManagementFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="User Management" textFill="WHITE">
                <font>
                   <Font name="Cambria Bold" size="28.0" />
                </font>
@@ -67,7 +67,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="1.0" layoutY="507.0" mnemonicParsing="false" onAction="#keyMoneyRemainStudentsFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="RemainKey-Money" textFill="WHITE">
+            <Button layoutX="6.0" layoutY="429.0" mnemonicParsing="false" onAction="#keyMoneyRemainStudentsFormOnAction" prefHeight="76.0" prefWidth="369.0" style="-fx-background-color: #34495e;" text="RemainKey-Money" textFill="WHITE">
                <font>
                   <Font name="Cambria Bold" size="28.0" />
                </font>
@@ -87,7 +87,7 @@
                   <Font name="System Bold" size="96.0" />
                </font>
             </Label>
-            <Label layoutX="145.0" layoutY="603.0" onMouseClicked="#backToHomeOnAction" text="Home" textFill="#7176a3">
+            <Label layoutX="150.0" layoutY="593.0" onMouseClicked="#backToHomeOnAction" text="Home" textFill="#7176a3">
                <font>
                   <Font name="Cambria Bold" size="30.0" />
                </font>
