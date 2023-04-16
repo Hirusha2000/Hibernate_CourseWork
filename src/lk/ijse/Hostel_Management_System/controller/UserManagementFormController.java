@@ -60,16 +60,28 @@ public class UserManagementFormController {
         }
 
         if (txtOldPassword.getText().equals(password)) {
-            if (userManagementBO.updateUser(new UserDTO(user.getUserId(), newUserName, txtNewPassword.getText()))) {
-                new Alert(Alert.AlertType.CONFIRMATION, "Updated..!").show();
-                txtNewUserName.clear();
-                txtNewPassword.clear();
-                txtOldPassword.clear();
-            }
-        } else {
+
             new Alert(Alert.AlertType.WARNING, "Old Password is Incorrect..!").show();
             txtOldPassword.clear();
             txtNewPassword.clear();
+
+
+
+            if (userManagementBO.updateUser(new UserDTO(user.getUserId(), newUserName, txtNewPassword.getText()))) {
+
+
+
+
+            }
+        } else {
+
+            new Alert(Alert.AlertType.CONFIRMATION, "Updated..!").show();
+            txtNewUserName.clear();
+            txtNewPassword.clear();
+
+
+
+
         }
     }
 
