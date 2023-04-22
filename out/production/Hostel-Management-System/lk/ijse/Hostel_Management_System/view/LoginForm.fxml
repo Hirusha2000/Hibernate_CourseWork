@@ -3,6 +3,7 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.ColorAdjust?>
@@ -23,7 +24,7 @@
             <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
          </effect>
       </JFXTextField>
-      <AnchorPane layoutX="97.0" layoutY="34.0" prefHeight="628.0" prefWidth="537.0" style="-fx-background-color: #34495e; -fx-background-radius: 20;">
+      <AnchorPane layoutX="114.0" layoutY="34.0" prefHeight="628.0" prefWidth="537.0" style="-fx-background-color: #34495e; -fx-background-radius: 20;">
          <children>
             <Label layoutX="40.0" layoutY="63.0" prefHeight="122.0" prefWidth="472.0" text="WELCOME" textFill="#7176a3" textOverrun="CLIP">
                <font>
@@ -68,11 +69,17 @@
          <font>
             <Font name="Cambria Bold" size="19.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </CheckBox>
       <JFXButton layoutX="912.0" layoutY="533.0" onAction="#btnLoginOnAction" prefHeight="44.0" prefWidth="128.0" style="-fx-background-color: #D3D3D3;" text="Login">
          <font>
             <Font name="Cambria Bold" size="23.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="901.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
          <image>

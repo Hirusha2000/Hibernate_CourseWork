@@ -55,17 +55,17 @@ public class LoginFormController {
     private void loginToSystem() throws IOException {
         List<User> users = loginBO.getAllUsers();
 
-      // for (User user : users) {
-         //  if (user.getUserName().equals(txtUserName.getText()) && user.getPassword().equals(txtPassword.getText())) {
-               // DashBoardFormController.userName=txtUserName.getText();
-               // DashBoardFormController.password=txtPassword.getText();
+       for (User user : users) {
+           if (user.getUserName().equals(txtUserName.getText()) && user.getPassword().equals(txtPassword.getText())) {
+                DashBoardFormController.userName=txtUserName.getText();
+                DashBoardFormController.password=txtPassword.getText();
                 Stage stage = (Stage) LoginFormContext.getScene().getWindow();
                 stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/DashBoardForm.fxml"))));
                 stage.show();
-              //  return;
-         //  }
-     //   }
-       // new Alert(Alert.AlertType.WARNING,"Incorrect User name or Password !!!").show();
+                return;
+          }
+      }
+        new Alert(Alert.AlertType.WARNING,"Incorrect User name or Password !!!").show();
    }
 
     public void btnLoginOnAction(ActionEvent actionEvent) {
